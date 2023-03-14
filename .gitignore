@@ -1,0 +1,8 @@
+venv
+.idea
+geckodriver.log
+messages.json
+messages_chars.json
+.env
+*.zip
+facebook.zip
