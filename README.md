@@ -8,7 +8,7 @@ pip install -r requirements.txt
 ```
 
 Next step is to create .env file in main directory
-the structure of ./env file should be as follows (without quotes):
+the structure of .env file should be as follows (without quotes):
 
 ```dotenv
 FBLOGIN='your faceebook email'
