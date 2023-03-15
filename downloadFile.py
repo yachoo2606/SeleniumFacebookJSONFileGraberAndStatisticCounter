@@ -5,7 +5,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.options import Options
-
 from time import sleep
 
 load_dotenv()
@@ -127,7 +126,7 @@ def downloadFiles():
     print(len(filesDirs))
     downloadDiv[1].click()
 
-    index = 14
+    index = 0  # change index of file here if all files hadn't been downloaded
 
     while index < len(filesDirs):
 
